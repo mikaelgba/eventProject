@@ -4,20 +4,20 @@
 
 * *Java 17*
 * *Spring Boot 3.2.2*
-* *PostgreSql 16*
+* *PostgreSQL 16*
 * *maven 4.0.0*
 
-### Recursos existese no projeto:
+### Recursos que existem no projeto:
 
 * Autentificação por __JWT__
 * Certificado __SSL__
-* Documenttação da Api com __SpringDoc OpenAPI__
-* Testes unitarios e de Integração com __Junit 5__ e __Mokito__
+* Documentação da API com __SpringDoc OpenAPI__
+* Testes unitários e de Integração com __Junit 5__ e __Mokito__
 
-### Ferramentas ultilizadas:
+### Ferramentas utilizadas:
 
 * IntelliJ IDEA Community Edition 2022.2
-* PgAdmin 4 (Para a banco de dados Postgresql durante o desevolvimento)
+* PgAdmin 4 (Para a banco de dados PostgreSQL durante o desenvolvimento)
 * Insomnia (Para testar aplicação requisição)
 
 ### Instalação
@@ -49,7 +49,7 @@
 
 > URL para cadrastro de novo usuario -  `https://localhost:8443/event-api/auth/register` 
 
-#### Exemplo de objeto do tipo usuario para a requisição POST de __register__
+#### Exemplo de objeto do tipo usuário para a requisição POST de __register__
 
 ```
 {
@@ -65,7 +65,7 @@
 
 > URL para login - `https://localhost:8443/event-api/auth/login`
 
-#### Exemplo de objeto para a geração do Token na requisição POST __login__
+#### Exemplo de um objeto para a geração do Token na requisição do POST __login__
 
 ```
 {
