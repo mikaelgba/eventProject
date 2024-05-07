@@ -1,26 +1,26 @@
 # eventProject
 
-### Tecnologias usadas:
+## Tecnologias usadas:
 
 * *Java 17*
 * *Spring Boot 3.2.2*
 * *PostgreSQL 16*
 * *maven 4.0.0*
 
-### Recursos que existem no projeto:
+## Recursos que existem no projeto:
 
 * Autentificação por __JWT__
 * Certificado __SSL__
 * Documentação da API com __SpringDoc OpenAPI__
 * Testes unitários e de Integração com __Junit 5__ e __Mokito__
 
-### Ferramentas utilizadas:
+## Ferramentas utilizadas:
 
 * IntelliJ IDEA Community Edition 2022.2
 * PgAdmin 4 (Para a banco de dados PostgreSQL durante o desenvolvimento)
 * Insomnia (Para testar aplicação requisição)
 
-### Instalação
+## Instalação
 
 #### Rode o banco de dados PostgreSQL, pode ser pelo PgAdmin 4 ou usando um contêiner Docker com uma imagem do banco PostgreSQL, vai se dua preferencia 
 
@@ -35,7 +35,7 @@
 #### __caso ocorra algum problema a instalação das dependências ou na execução__, fique atendo a sua versão do java ou da versão do java da sua IDE, o projeto está configurado para rodar com o __Java 17__.
 
 
-### Documentação da aplicação:
+## Documentação da aplicação:
 
 #### Aplicação possui o swagger (*link abaixo*) detalhando cada rota, no qual também é possível realizar os testes através do mesmo.
 
