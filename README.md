@@ -20,6 +20,20 @@
 * PgAdmin 4 (Para a banco de dados Postgresql durante o desevolvimento)
 * Insomnia (Para testar aplicação requisição)
 
+### Instalação
+
+#### Rode o banco de dados PostgreSQL, pode ser pelo PgAdmin 4 ou usando um contêiner Docker com uma imagem do banco PostgreSQL, vai se dua preferencia 
+
+#### clone o projeto e baixe as dependências (com o comando abaixo ou pela IDE de seu gosto)
+
+> mvn clean install
+
+#### Execute aplicação (com o comando abaixo ou pela IDE de seu gosto)
+
+> mvn spring-boot:run
+
+#### __caso ocorra algum problema a instalação das dependências ou na execução__, fique atendo a sua versão do java ou da versão do java da sua IDE, o projeto está configurado para rodar com o __Java 17__.
+
 
 ### Documentação da aplicação:
 
